@@ -1,0 +1,33 @@
+.list {
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 30px 0;
+}
+
+.list__item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 8px 0;
+}
+
+.list__item.list__item--done {
+	opacity: 0.5;
+}
+
+.list__item.list__item--done span {
+	text-decoration: line-through;
+}
+
+.list__remove-button {
+	background-color: red;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: normal;
+	color: white;
+	border: 0;
+	padding: 3px 5px 5px 5px;
+	margin: 0;
+}
