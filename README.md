@@ -2,6 +2,8 @@
 
 A Basic React Todo App with typeScript.
 
+DEMO -> [https://alperalin-todoapp.netlify.app/](https://alperalin-todoapp.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
