@@ -1,0 +1,47 @@
+.listItem {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 15px 0;
+	cursor: pointer;
+}
+
+.listItem:last-of-type {
+	margin: 0;
+}
+
+.listItem.listItem--done {
+	opacity: 0.5;
+}
+
+.listItem.listItem--done span {
+	text-decoration: line-through;
+}
+
+.listItem__text {
+	max-width: calc(100% - 100px);
+	width: 100%;
+	text-align: center;
+}
+
+.listItem .listItem__checkbox {
+	width: 20px;
+	height: 20px;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+}
+
+.list__remove-button {
+	max-width: 60px;
+	width: 100%;
+	background-color: red;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: normal;
+	color: white;
+	border: 0;
+	padding: 3px 5px 5px 5px;
+	margin: 0 0 0 10px;
+	cursor: pointer;
+}
